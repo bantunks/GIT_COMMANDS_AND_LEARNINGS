@@ -1,0 +1,2 @@
+How to list the current changes in the commits in local branch ?
+git log -n 1 | egrep ^commit | awk '{print $2}' | git show
